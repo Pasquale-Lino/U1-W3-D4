@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#tabellone {
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabellone td {
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+#tabellone td.estratto {
+  background-color: #ffff00;
+}
+
+#tabellone td:hover {
+  background-color: #f5f5f5;
+}
+
+#estrai {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#estrai:hover {
+  background-color: #3e8e41;
+}
